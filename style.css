@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('//db.onlinewebfonts.com/c/0a6ee448d1bd65c56f6cf256a7c6f20a?family=Bahnschrift');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+.conteudo{
+    background-color:rgba(28, 167, 191, 1);
+    width: 402px;
+    height: 226px;
+    display: flex;
+    
+}
+
+.imagens{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: 6px;
+}
+
+.imagem-0 img{
+    position: relative;
+    width: 88px;
+    left: 47px;
+    top: 24px;
+    z-index: 1;
+}
+
+.imagem-1 img{
+    position: relative;
+    width: 45px;
+    bottom: 11px;
+    left: -16px;
+}
+
+
+.imagem-2 img{
+    position: relative;
+    width: 40px;
+    left: -24px;
+    bottom: 5px;
+}
+
+.imagem-3 img{
+    position: relative;
+    width: 28px;
+    bottom: 19px;
+    left: 11px;
+   
+}
+
+.imagem-4 img{
+    position: relative;
+    width: 55px;
+    bottom: 48px;
+    left: 72px;
+}
+
+.imagem-5{
+    height: 0px;
+}
+ 
+.imagem-5 img{
+    position: relative;
+    bottom: 339px;
+    height: 84px;
+    width: 41px;
+    right: -52px;
+    top: -148px;
+}
+
+
+
+.textos{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.textos h1{
+    position: relative;
+    font-size: 21px;
+    bottom: 10px;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: 700, bold;
+    font-style: normal;
+}
+
+.textos span{
+    position: relative;
+    font-size: 59px;
+    font-family: "Bahnschrift";
+    font-weight: 400;
+    font-style: normal;
+    bottom: 5px;
+}
+
+.textos p{
+    position: relative;
+    left: 6px;
+    text-align: -webkit-center;
+    bottom: 8px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+}
+
+
+
+@media screen and (min-width: 768px) { 
+    body{
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        transition:all 0.3s ease;
+        
+    }
+
+    .conteudo{
+        background-color: rgb(28, 167, 191);
+        width: 769px;
+        display: flex;
+        height: 435px;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .imagem-0 img{
+        position: relative;
+        width: 160px;
+        left: 47px;
+        top: 1px;
+        z-index: 1;
+    }
+
+    .imagem-1 img{
+        position: relative;
+        width: 82px;
+        bottom: 44px;
+        left: -66px;
+    }
+
+    .imagem-2 img{
+        position: relative;
+        width: 81px;
+        left: -84px;
+        bottom: 21px;
+    }
+
+    .imagem-3 img{
+        position: relative;
+        width: 50px;
+        bottom: 47px;
+        left: -18px;
+    }
+
+    .imagem-4 img{
+        position: relative;
+        width: 85px;
+        bottom: 84px;
+        left: 71px;
+    
+
+    }
+
+    .imagem-5 img{
+        position: relative;
+        bottom: 339px;
+        height: 157px;
+        width: 81px;
+        right: -57px;
+        top: -259px;
+    }
+    .textos{
+        position: relative;
+        top: -21px;
+    }
+
+
+    .textos h1{
+        position: relative;
+        font-size: 46px;
+        bottom: 10px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700, bold;
+        font-style: normal;
+    }
+
+    .textos span{
+        position: relative;
+        font-size: 129px;
+        font-family: "Bahnschrift";
+        font-weight: 400;
+        font-style: normal;
+        bottom: 5px;
+    }
+    .textos p{
+        position: relative;
+        left: 6px;
+        text-align: -webkit-center;
+        bottom: 8px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+    }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .conteudo{
+        background-color: rgba(28, 167, 191, 1);
+         width: 1341px;
+        height: 734px;
+        display: flex;
+        
+    }
+
+    .imagem-0 img{
+        position: relative;
+        width: 236px;
+        left: 47px;
+        top: 1px;
+        z-index: 1;
+    }
+
+    .imagem-1 img{
+        position: relative;
+        width: 130px;
+        bottom: 83px;
+        left: -113px;
+    }
+
+    .imagem-2 img{
+        position: relative;
+        width: 123px;
+        left: -147px;
+        bottom: 31px;
+    }
+
+
+    .imagem-3 img{
+        position: relative;
+        width: 80px;
+        bottom: 67px;
+        left: -49px;
+    }
+
+    .imagem-4 img{
+        position: relative;
+        width: 129px;
+        bottom: 112px;
+        left: 77px;
+    }
+    
+
+    .imagem-5 img{
+        position: relative;
+        bottom: 339px;
+        height: 228px;
+        width: 114px;
+        right: -60px;
+        top: -374px;
+    }
+
+    .textos h1{
+        position: relative;
+        font-size: 71px;
+        bottom: 10px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700, bold;
+        font-style: normal;
+    }
+
+    .textos span{
+        position: relative;
+        font-size: 190px;
+        font-family: "Bahnschrift";
+        font-weight: 400;
+        font-style: normal;
+        bottom: 5px;
+    }
+
+    .textos p {
+        position: relative;
+    left: 6px;
+    text-align: -webkit-center;
+    bottom: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    }
+}
